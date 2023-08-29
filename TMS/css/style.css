@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: rgb(35, 213, 245);
+}
+#headersection{
+    padding: 10px;
+
+}
+#headersection h1{
+    font-family: cursive;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #16a085; 
+    box-shadow:  0px 0px 2px 2px rgba(26,188,156,0.25);
+
+}
+#logbtn{
+    border-radius: 7px;
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    
+}

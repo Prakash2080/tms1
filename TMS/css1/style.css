@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+  background: #1abc9c;
+}
+#headersection{
+    padding: 10px;
+
+}
+#headersection h1{
+    font-family: cursive;
+}
+input:focus{
+    padding: 10px;
+    border-radius: 10px;
+  s
+
+}
+#logbtn{
+    border-radius: 7px;
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    
+}
+#register{
+    border-radius: 7px;
+    padding: 6px;
+    background-color: blue;
+    color: white;
+}

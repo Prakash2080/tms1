@@ -1,0 +1,32 @@
+<html>
+    <head><title>
+        Transport management system
+    </title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+    <body>
+        <style>
+            #register{
+    border-radius: 7px;
+    padding: 6px;
+    background-color:#35e70f;
+    color: white;
+    width: 14%;
+}
+        </style>
+        <h1>Transport management system</h1>
+        <hr>
+        <h3>Registration</h3>
+        <marquee>Good Morning, Good Afternoon, Good Evening, Good Night</marquee><br><br>
+        <form action="../API/register.php"method="POST">
+            <input type="text"name="name"placeholder="Enter name"><br><br>
+            <input type="number"name="mobile"placeholder="Enter mobile number"><br><br>
+            <input type="password"name="password"placeholder="Enter password"><br><br>
+            <input type="password"name="cpassword"placeholder="Confirm password"><br><br>
+            <input type="text"name="address"placeholder="Enter your address"><br><br>
+            <button id="register">Register</button> <br><br>
+            Already User?<a href="../index.html">Login here</a>
+            
+        </form>
+    </body>
+</html>
